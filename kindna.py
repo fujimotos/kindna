@@ -6,7 +6,7 @@ import polyleven
 def make_index(word, max_dist):
     """Return the set of index keys of a word.
 
-    >>> indexkeys('aiu', 1)
+    >>> make_index('aiu', 1)
     {'aiu', 'iu', 'au', 'ai'}
     """
     res = set()
